@@ -1,0 +1,12 @@
+{
+  "model_name": "SimpleMLP",
+  "num_samples": 600,
+  "input_dim": 4,
+  "hidden_dim": 32,
+  "num_classes": 3,
+  "learning_rate": 0.01,
+  "batch_size": 32,
+  "epochs": 3,
+  "seed": 42,
+  "device": "cpu"
+}
