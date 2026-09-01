@@ -8,5 +8,5 @@
   "batch_size": 32,
   "epochs": 3,
   "seed": 42,
-  "device": "cpu"
+  "device": "cuda"
 }
