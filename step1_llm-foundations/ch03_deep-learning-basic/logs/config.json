@@ -1,0 +1,31 @@
+{
+  "seed": 42,
+  "model": "SimpleMLP",
+  "input_dim": 4,
+  "hidden_dim": 64,
+  "num_classes": 3,
+  "batch_size": 32,
+  "learning_rate": 0.005,
+  "epochs": 30,
+  "optimizer": "Adam",
+  "data": {
+    "name": "example_tabular",
+    "version": "v1",
+    "split_seed": 42,
+    "split_sizes": {
+      "train": 70,
+      "val": 15,
+      "test": 15
+    }
+  },
+  "transforms": {
+    "train": "standardize with train statistics",
+    "valid": "same fixed train statistics",
+    "test": "same fixed train statistics"
+  },
+  "environment": {
+    "python": "3.12.13",
+    "torch": "2.11.0+cu128",
+    "device": "cuda"
+  }
+}
