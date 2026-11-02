@@ -1,0 +1,64 @@
+{
+  "mode": "fixture",
+  "document_ids": [
+    "policy-python"
+  ],
+  "context": "<document id=\"policy-python\">\n제목: Python 버전과 실행 환경\n출처: https://devdesk.example.invalid/policies/policy-python\nKANT NEXT의 DevDesk 프로젝트는 Python 3.12를 기준으로 합니다. uv python install 3.12로 준비하고 uv sync --python 3.12로 환경을 구성합니다. 다른 프로젝트의 가상환경을 복사하지 않습니다. Windows PowerShell 또는 macOS/Linux 터미널에서 프로젝트별 가상환경을 사용합니다. CPU 환경으로 실행 가능합니다. 사내 정책에서 확인되지 않은 Python 버전 호환성을 임의로 보장하지 않습니다.\n</document>",
+  "search_cases": [
+    {
+      "name": "Python 버전 안내",
+      "case": "python-policy",
+      "actual_ids": [
+        "policy-python"
+      ],
+      "expected_ids": [
+        "policy-python"
+      ],
+      "matches": true
+    },
+    {
+      "name": "API 키 보관",
+      "case": "secret-policy",
+      "actual_ids": [
+        "policy-secret"
+      ],
+      "expected_ids": [
+        "policy-secret"
+      ],
+      "matches": true
+    },
+    {
+      "name": "근거 없는 질문",
+      "case": "no-matching-keyword",
+      "actual_ids": [],
+      "expected_ids": [],
+      "matches": true
+    },
+    {
+      "name": "릴리스 검색과 동점 처리",
+      "case": "release-stable-tie",
+      "actual_ids": [
+        "release-uv-101",
+        "release-uv-102",
+        "release-uv-109"
+      ],
+      "expected_ids": [
+        "release-uv-101",
+        "release-uv-102",
+        "release-uv-109"
+      ],
+      "matches": true
+    },
+    {
+      "name": "검색 후보 제한",
+      "case": "filter-before-ranking",
+      "actual_ids": [
+        "policy-uv"
+      ],
+      "expected_ids": [
+        "policy-uv"
+      ],
+      "matches": true
+    }
+  ]
+}

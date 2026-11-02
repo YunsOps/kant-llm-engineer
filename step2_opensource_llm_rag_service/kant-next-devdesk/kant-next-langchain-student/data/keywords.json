@@ -1,0 +1,52 @@
+{
+  "policy-uv": [
+    "uv",
+    "설치",
+    "동기화",
+    "잠금"
+  ],
+  "policy-python": [
+    "python",
+    "버전",
+    "가상환경"
+  ],
+  "policy-secret": [
+    "api 키",
+    ".env",
+    "비밀번호",
+    "비밀"
+  ],
+  "policy-incident": [
+    "장애",
+    "티켓",
+    "복구",
+    "sla"
+  ],
+  "policy-access": [
+    "401",
+    "권한",
+    "사설",
+    "저장소"
+  ],
+  "policy-support": [
+    "지원 범위",
+    "급여",
+    "출장비",
+    "의료"
+  ],
+  "release-uv-101": [
+    "uv",
+    "릴리스",
+    "release"
+  ],
+  "release-uv-102": [
+    "uv",
+    "릴리스",
+    "release"
+  ],
+  "release-uv-109": [
+    "uv",
+    "릴리스",
+    "release"
+  ]
+}

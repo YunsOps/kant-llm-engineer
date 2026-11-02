@@ -1,0 +1,96 @@
+[
+  {
+    "id": "keep",
+    "draft": {
+      "answer": "DevDesk 프로젝트는 Python 3.12를 기준으로 합니다.",
+      "source_ids": [
+        "policy-python"
+      ],
+      "needs_human": false,
+      "category": "installation"
+    },
+    "reviews": [
+      "keep"
+    ],
+    "revised": {
+      "answer": "DevDesk 프로젝트는 Python 3.12를 기준으로 합니다.",
+      "source_ids": [
+        "policy-python"
+      ],
+      "needs_human": false,
+      "category": "installation"
+    },
+    "expected_route": "primary"
+  },
+  {
+    "id": "revise-once",
+    "draft": {
+      "answer": "DevDesk 프로젝트는 Python 3.11을 기준으로 합니다.",
+      "source_ids": [
+        "policy-python"
+      ],
+      "needs_human": false,
+      "category": "installation"
+    },
+    "reviews": [
+      "revise",
+      "keep"
+    ],
+    "revised": {
+      "answer": "DevDesk 프로젝트는 Python 3.12를 기준으로 합니다.",
+      "source_ids": [
+        "policy-python"
+      ],
+      "needs_human": false,
+      "category": "installation"
+    },
+    "expected_route": "primary"
+  },
+  {
+    "id": "human",
+    "draft": {
+      "answer": "DevDesk 프로젝트는 Python 3.12를 기준으로 합니다.",
+      "source_ids": [
+        "policy-python"
+      ],
+      "needs_human": false,
+      "category": "installation"
+    },
+    "reviews": [
+      "human"
+    ],
+    "revised": {
+      "answer": "DevDesk 프로젝트는 Python 3.12를 기준으로 합니다.",
+      "source_ids": [
+        "policy-python"
+      ],
+      "needs_human": false,
+      "category": "installation"
+    },
+    "expected_route": "fallback"
+  },
+  {
+    "id": "still-needs-review",
+    "draft": {
+      "answer": "DevDesk 프로젝트는 Python 3.11을 기준으로 합니다.",
+      "source_ids": [
+        "policy-python"
+      ],
+      "needs_human": false,
+      "category": "installation"
+    },
+    "reviews": [
+      "revise",
+      "revise"
+    ],
+    "revised": {
+      "answer": "DevDesk 프로젝트는 Python 3.12를 기준으로 합니다.",
+      "source_ids": [
+        "policy-python"
+      ],
+      "needs_human": false,
+      "category": "installation"
+    },
+    "expected_route": "fallback"
+  }
+]

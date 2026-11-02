@@ -1,0 +1,74 @@
+[
+  {
+    "id": "python-policy",
+    "request": {
+      "question": "DevDesk 프로젝트의 Python 버전은 무엇인가요?",
+      "document_ids": [
+        "policy-python",
+        "policy-uv",
+        "policy-support"
+      ],
+      "session_id": "demo"
+    },
+    "expected_ids": [
+      "policy-python"
+    ]
+  },
+  {
+    "id": "secret-policy",
+    "request": {
+      "question": "API 키는 어디에 보관하나요?",
+      "document_ids": [
+        "policy-secret",
+        "policy-access",
+        "policy-uv"
+      ],
+      "session_id": "demo"
+    },
+    "expected_ids": [
+      "policy-secret"
+    ]
+  },
+  {
+    "id": "no-matching-keyword",
+    "request": {
+      "question": "사무실 점심 메뉴를 알려주세요.",
+      "document_ids": [
+        "policy-python",
+        "policy-uv"
+      ],
+      "session_id": "demo"
+    },
+    "expected_ids": []
+  },
+  {
+    "id": "release-stable-tie",
+    "request": {
+      "question": "uv 릴리스 자료를 보여주세요.",
+      "document_ids": [
+        "release-uv-109",
+        "release-uv-101",
+        "release-uv-102"
+      ],
+      "session_id": "demo"
+    },
+    "expected_ids": [
+      "release-uv-101",
+      "release-uv-102",
+      "release-uv-109"
+    ]
+  },
+  {
+    "id": "filter-before-ranking",
+    "request": {
+      "question": "uv 설치와 Python 버전 가상환경을 알려주세요.",
+      "document_ids": [
+        "policy-uv"
+      ],
+      "session_id": "demo"
+    },
+    "expected_ids": [
+      "policy-uv"
+    ]
+  }
+]

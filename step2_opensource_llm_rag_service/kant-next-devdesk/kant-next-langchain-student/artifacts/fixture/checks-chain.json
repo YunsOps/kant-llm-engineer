@@ -1,0 +1,72 @@
+{
+  "stage": "chain",
+  "passed": 13,
+  "failed": 0,
+  "results": [
+    {
+      "name": "기본 체인: prompt와 parser 연결",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 실제 LCEL 순차 실행과 재사용",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 검색된 출처 검증",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 문서 없음 분기",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 잘못된 JSON",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 없는 필드",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 추가 필드",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: boolean 문자열",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 빈 답변",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 답변 release 범주",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 중복 출처",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 미검색 출처",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 출처 없는 해결 응답",
+      "passed": true,
+      "detail": "통과"
+    }
+  ]
+}

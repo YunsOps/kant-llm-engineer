@@ -1,0 +1,136 @@
+{
+  "mode": "fixture",
+  "code_digest": "890cc4b00c83eac7effdd7bac75d101c56b79cb8bd896e111bb02fa2a0fa6ba6",
+  "cases": [
+    {
+      "scenario": "temporary",
+      "route": "primary",
+      "model_attempts": 2,
+      "reset_count": 0,
+      "trace": {
+        "root_run_id": "01a16141-5f3b-7960-a8c7-73f20f5a4aee",
+        "summary": {
+          "event": "request_summary",
+          "mode": "fixture",
+          "run_id": "01a16141-5f3b-7960-a8c7-73f20f5a4aee",
+          "route": "primary",
+          "model_attempts": 2,
+          "error_type": null
+        },
+        "errors": [
+          {
+            "event": "model_error",
+            "stage": "model",
+            "run_id": "01a16141-5f50-7402-9560-ab63938adac5",
+            "parent_run_id": "01a16141-5f4c-71e2-8e66-cfbb9f64a4fb",
+            "error_type": "TemporaryModelError"
+          },
+          {
+            "event": "chain_error",
+            "stage": "chain",
+            "run_id": "01a16141-5f4c-71e2-8e66-cfbb9f64a4fb",
+            "parent_run_id": "01a16141-5f3b-7960-a8c7-73f20f5a4aee",
+            "error_type": "TemporaryModelError"
+          }
+        ],
+        "model_ends": [
+          {
+            "event": "model_end",
+            "stage": "model",
+            "run_id": "01a16141-5f57-7f20-915b-3f6936abb89f",
+            "parent_run_id": "01a16141-5f54-7983-bac8-e617183a947d",
+            "mode": "fixture",
+            "elapsed_ms": 8.765800041146576,
+            "chunk_count": 7,
+            "usage": {
+              "input_tokens": 30,
+              "output_tokens": 20,
+              "total_tokens": 50
+            },
+            "error_type": null
+          }
+        ],
+        "text_chunks": 7
+      }
+    },
+    {
+      "scenario": "invalid_json",
+      "route": "fallback",
+      "model_attempts": 1,
+      "reset_count": 1,
+      "trace": {
+        "root_run_id": "01a16141-656d-7571-90e7-09a034de0549",
+        "summary": {
+          "event": "request_summary",
+          "mode": "fixture",
+          "run_id": "01a16141-656d-7571-90e7-09a034de0549",
+          "route": "fallback",
+          "model_attempts": 1,
+          "error_type": null
+        },
+        "errors": [
+          {
+            "event": "chain_error",
+            "stage": "parser",
+            "run_id": "01a16141-6586-7392-96fc-32c30fee1581",
+            "parent_run_id": "01a16141-656d-7571-90e7-09a034de0549",
+            "error_type": "OutputParserException"
+          }
+        ],
+        "model_ends": [
+          {
+            "event": "model_end",
+            "stage": "model",
+            "run_id": "01a16141-6581-7c03-836d-d831db84fd57",
+            "parent_run_id": "01a16141-657d-76f1-b12a-e9b05554e4e3",
+            "mode": "fixture",
+            "elapsed_ms": 3.4205999691039324,
+            "chunk_count": 1,
+            "usage": {
+              "input_tokens": 30,
+              "output_tokens": 20,
+              "total_tokens": 50
+            },
+            "error_type": null
+          }
+        ],
+        "text_chunks": 1
+      }
+    },
+    {
+      "scenario": "midstream",
+      "route": "fallback",
+      "model_attempts": 1,
+      "reset_count": 1,
+      "trace": {
+        "root_run_id": "01a16141-6bc9-7690-8d22-1b24095a3ca9",
+        "summary": {
+          "event": "request_summary",
+          "mode": "fixture",
+          "run_id": "01a16141-6bc9-7690-8d22-1b24095a3ca9",
+          "route": "fallback",
+          "model_attempts": 1,
+          "error_type": null
+        },
+        "errors": [
+          {
+            "event": "model_error",
+            "stage": "model",
+            "run_id": "01a16141-6bdc-74a0-84c7-224c548d39ce",
+            "parent_run_id": "01a16141-6bd9-79c0-be7e-9539c0a51e40",
+            "error_type": "TemporaryModelError"
+          },
+          {
+            "event": "chain_error",
+            "stage": "chain",
+            "run_id": "01a16141-6bd9-79c0-be7e-9539c0a51e40",
+            "parent_run_id": "01a16141-6bc9-7690-8d22-1b24095a3ca9",
+            "error_type": "TemporaryModelError"
+          }
+        ],
+        "model_ends": [],
+        "text_chunks": 1
+      }
+    }
+  ]
+}

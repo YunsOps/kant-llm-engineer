@@ -1,0 +1,32 @@
+[
+  {
+    "page": 1,
+    "row": 3,
+    "id": 103,
+    "reason": "empty_body"
+  },
+  {
+    "page": 1,
+    "row": 4,
+    "id": 104,
+    "reason": "invalid_name"
+  },
+  {
+    "page": 2,
+    "row": 1,
+    "id": 101,
+    "reason": "duplicate_id"
+  },
+  {
+    "page": 2,
+    "row": 3,
+    "id": 109,
+    "reason": "invalid_body"
+  },
+  {
+    "page": 2,
+    "row": 5,
+    "id": 107,
+    "reason": "invalid_published_at"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "mode": "live",
+  "model": "gpt-5.6-luna",
+  "elapsed_ms": 2912.41,
+  "selected_ids": [
+    "policy-python"
+  ],
+  "question": "프로젝트에서 사용하는 Python 버전과 확인할 점을 알려주세요.",
+  "response": {
+    "answer": "프로젝트 기준 Python 버전은 3.12입니다. `uv python install 3.12`로 준비한 뒤 `uv sync --python 3.12`로 프로젝트별 환경을 구성하세요. 다른 프로젝트의 가상환경은 복사하지 말고, Windows PowerShell 또는 macOS/Linux 터미널에서 프로젝트별 가상환경을 사용해야 합니다. CPU 환경에서도 실행할 수 있습니다. 그 외 Python 버전의 호환성은 사내 정책에서 확인되지 않았으므로 임의로 보장할 수 없습니다.",
+    "source_ids": [
+      "policy-python"
+    ],
+    "needs_human": false,
+    "category": "installation"
+  },
+  "calls": 1,
+  "meaning_review": "답변 문장과 선택 문서를 대조하세요."
+}

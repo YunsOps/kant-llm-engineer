@@ -1,0 +1,51 @@
+{
+  "mode": "fixture",
+  "cases": [
+    {
+      "events": [
+        "temporary",
+        "success"
+      ],
+      "model_attempts": 2,
+      "reply": {
+        "answer": "DevDesk 프로젝트는 Python 3.12를 기준으로 합니다. 프로젝트별 가상환경을 사용합니다.",
+        "source_ids": [
+          "policy-python"
+        ],
+        "needs_human": false,
+        "category": "installation"
+      },
+      "route": "primary"
+    },
+    {
+      "events": [
+        "bad_schema",
+        "success"
+      ],
+      "model_attempts": 2,
+      "reply": {
+        "answer": "DevDesk 프로젝트는 Python 3.12를 기준으로 합니다. 프로젝트별 가상환경을 사용합니다.",
+        "source_ids": [
+          "policy-python"
+        ],
+        "needs_human": false,
+        "category": "installation"
+      },
+      "route": "primary"
+    },
+    {
+      "events": [
+        "temporary",
+        "temporary"
+      ],
+      "model_attempts": 2,
+      "reply": {
+        "answer": "현재 답변 생성 기능이 제한되어 정확한 안내를 확정하지 못했습니다. 잠시 후 다시 시도하거나 담당자에게 확인해 주세요.",
+        "source_ids": [],
+        "needs_human": true,
+        "category": "general"
+      },
+      "route": "fallback"
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "mode": "fixture",
+  "results": [
+    {
+      "stage": "policy",
+      "name": "정책 프롬프트: 정책, 고급 조건, 고정 문서 순서",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "answer",
+      "name": "답변 검증과 수정: strict 스키마 연결",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "answer",
+      "name": "답변 검증과 수정: 정상, 근거 부족 답변",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "answer",
+      "name": "답변 검증과 수정: 필수 필드, JSON 문법",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "answer",
+      "name": "답변 검증과 수정: 진짜 두 번째 응답으로 복구",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "answer",
+      "name": "답변 검증과 수정: 복구 소진 후 종료",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "answer",
+      "name": "답변 검증과 수정: 오류 종류별 수정 안내",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "answer",
+      "name": "답변 검증과 수정: 문자열 boolean",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "answer",
+      "name": "답변 검증과 수정: 숫자 boolean",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "answer",
+      "name": "답변 검증과 수정: 빈 답변",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "answer",
+      "name": "답변 검증과 수정: 없는 출처",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "answer",
+      "name": "답변 검증과 수정: 중복 출처",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "answer",
+      "name": "답변 검증과 수정: 근거 없이 담당자 불필요",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "answer",
+      "name": "답변 검증과 수정: 추가 필드",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "answer",
+      "name": "답변 검증과 수정: 없는 category",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "answer",
+      "name": "답변 검증과 수정: 숫자 출처",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "answer",
+      "name": "답변 검증과 수정: 거절",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "answer",
+      "name": "답변 검증과 수정: 불완전",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "answer",
+      "name": "답변 검증과 수정: API 실패",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "tools",
+      "name": "티켓 조회: 도구 스키마",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "tools",
+      "name": "티켓 조회: 허용 인자, 읽기 전용 조회",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "tools",
+      "name": "티켓 조회: reasoning, call_id 왕복",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "tools",
+      "name": "티켓 조회: 도구 왕복 상한",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "tools",
+      "name": "티켓 조회: 여러 호출과 도구 오류 연결",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "image",
+      "name": "오류 화면 입력: 텍스트, 실제 PNG 결합",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "retry",
+      "name": "호출 재시도: 코드 오류는 재시도하지 않음",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "retry",
+      "name": "호출 재시도: timeout→429→성공",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "retry",
+      "name": "호출 재시도: 503 총 3회 소진",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "retry",
+      "name": "호출 재시도: 400 즉시 중단",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "retry",
+      "name": "호출 재시도: 401 즉시 중단",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "retry",
+      "name": "호출 재시도: 403 즉시 중단",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "retry",
+      "name": "호출 재시도: 404 즉시 중단",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "retry",
+      "name": "호출 재시도: connection/None 후 성공",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "retry",
+      "name": "호출 재시도: http/408 후 성공",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "retry",
+      "name": "호출 재시도: http/409 후 성공",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "retry",
+      "name": "호출 재시도: http/500 후 성공",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "usage",
+      "name": "사용량과 비용: 고정 prefix, 정책 변경 버전",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "usage",
+      "name": "사용량과 비용: 캐시 read/write, 비용",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "usage",
+      "name": "사용량과 비용: 관측된 0, 미관측, 실패 구분",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "usage",
+      "name": "사용량과 비용: 잘못된 계량 거부",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "usage",
+      "name": "사용량과 비용: 일부 계량 누락 시에도 모순 거부",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "usage",
+      "name": "사용량과 비용: 제공 가격 범위 경계",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "pipeline",
+      "name": "전체 기능 연결: 도구, 이미지, 재시도, 복구, 로그 통합",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "pipeline",
+      "name": "전체 기능 연결: 통합 API 소진 fallback",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "pipeline",
+      "name": "전체 기능 연결: 통합 도구 상한 fallback",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "mode": "fixture",
+  "events": [
+    {
+      "type": "delta",
+      "text": "{\"answer\": \"DevDesk 프로젝트"
+    },
+    {
+      "type": "delta",
+      "text": "는 Python 3.12를 기준으로 합니다."
+    },
+    {
+      "type": "delta",
+      "text": " 프로젝트별 가상환경을 사용합니다.\", \"s"
+    },
+    {
+      "type": "delta",
+      "text": "ource_ids\": [\"policy-pyt"
+    },
+    {
+      "type": "delta",
+      "text": "hon\"], \"needs_human\": fa"
+    },
+    {
+      "type": "delta",
+      "text": "lse, \"category\": \"instal"
+    },
+    {
+      "type": "delta",
+      "text": "lation\"}"
+    },
+    {
+      "type": "final",
+      "reply": {
+        "answer": "DevDesk 프로젝트는 Python 3.12를 기준으로 합니다. 프로젝트별 가상환경을 사용합니다.",
+        "source_ids": [
+          "policy-python"
+        ],
+        "needs_human": false,
+        "category": "installation"
+      },
+      "route": "primary"
+    }
+  ],
+  "model_attempts": 2
+}

@@ -1,0 +1,12 @@
+{
+  "mode": "live",
+  "reply": {
+    "answer": "KANT NEXT의 DevDesk 프로젝트는 Python 3.12를 기준으로 합니다.",
+    "source_ids": [
+      "policy-python"
+    ],
+    "needs_human": false,
+    "category": "installation"
+  },
+  "route": "primary"
+}

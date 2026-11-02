@@ -1,0 +1,37 @@
+{
+  "stage": "challenge",
+  "passed": 6,
+  "failed": 0,
+  "results": [
+    {
+      "name": "선택 심화: 검토 경로 keep",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "선택 심화: 검토 경로 human",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "선택 심화: 검토 경로 revise → keep",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "선택 심화: 검토 경로 revise → revise",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "선택 심화: 검토 경로 revise → human",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "선택 심화: 수정 답변의 출처 검증",
+      "passed": true,
+      "detail": "통과"
+    }
+  ]
+}

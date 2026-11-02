@@ -1,0 +1,37 @@
+{
+  "stage": "observe",
+  "passed": 6,
+  "failed": 0,
+  "results": [
+    {
+      "name": "요청 제한과 기록: 고정 구간 계산",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "요청 제한과 기록: 30회 제한과 복구",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "요청 제한과 기록: 재시도와 사용자 횟수",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "요청 제한과 기록: 동시 세 요청의 대기 겹침",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "요청 제한과 기록: 안전한 미들웨어 로그",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "요청 제한과 기록: 공급자 오류 응답과 로그",
+      "passed": true,
+      "detail": "통과"
+    }
+  ]
+}

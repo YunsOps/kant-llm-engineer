@@ -1,0 +1,27 @@
+{
+  "stage": "history",
+  "passed": 4,
+  "failed": 0,
+  "results": [
+    {
+      "name": "대화 이력: 세션별 history 객체와 저장 순서",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "대화 이력: 문서 없음 이력 제외",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "대화 이력: fallback 이력 제외",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "대화 이력: A 두 턴과 B 한 턴의 분리",
+      "passed": true,
+      "detail": "통과"
+    }
+  ]
+}

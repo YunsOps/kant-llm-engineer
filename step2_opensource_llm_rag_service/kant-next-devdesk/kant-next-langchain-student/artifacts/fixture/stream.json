@@ -1,0 +1,24 @@
+{
+  "mode": "fixture",
+  "events": [
+    {
+      "type": "delta",
+      "text": "{\"answer\": \"DevDesk 프로젝트"
+    },
+    {
+      "type": "reset",
+      "reason": "unverified_output"
+    },
+    {
+      "type": "final",
+      "reply": {
+        "answer": "현재 답변 생성 기능이 제한되어 정확한 안내를 확정하지 못했습니다. 잠시 후 다시 시도하거나 담당자에게 확인해 주세요.",
+        "source_ids": [],
+        "needs_human": true,
+        "category": "general"
+      },
+      "route": "fallback"
+    }
+  ],
+  "model_attempts": 1
+}

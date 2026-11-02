@@ -1,0 +1,170 @@
+{
+  "mode": "live",
+  "events": [
+    {
+      "type": "delta",
+      "text": "{\""
+    },
+    {
+      "type": "delta",
+      "text": "answer"
+    },
+    {
+      "type": "delta",
+      "text": "\":\""
+    },
+    {
+      "type": "delta",
+      "text": "K"
+    },
+    {
+      "type": "delta",
+      "text": "ANT"
+    },
+    {
+      "type": "delta",
+      "text": " NEXT"
+    },
+    {
+      "type": "delta",
+      "text": "의"
+    },
+    {
+      "type": "delta",
+      "text": " Dev"
+    },
+    {
+      "type": "delta",
+      "text": "Desk"
+    },
+    {
+      "type": "delta",
+      "text": " 프로젝트"
+    },
+    {
+      "type": "delta",
+      "text": "는"
+    },
+    {
+      "type": "delta",
+      "text": " Python"
+    },
+    {
+      "type": "delta",
+      "text": " "
+    },
+    {
+      "type": "delta",
+      "text": "3"
+    },
+    {
+      "type": "delta",
+      "text": "."
+    },
+    {
+      "type": "delta",
+      "text": "12"
+    },
+    {
+      "type": "delta",
+      "text": "를"
+    },
+    {
+      "type": "delta",
+      "text": " 기준"
+    },
+    {
+      "type": "delta",
+      "text": "으로"
+    },
+    {
+      "type": "delta",
+      "text": " 합니다"
+    },
+    {
+      "type": "delta",
+      "text": ".\",\""
+    },
+    {
+      "type": "delta",
+      "text": "source"
+    },
+    {
+      "type": "delta",
+      "text": "_ids"
+    },
+    {
+      "type": "delta",
+      "text": "\":[\""
+    },
+    {
+      "type": "delta",
+      "text": "policy"
+    },
+    {
+      "type": "delta",
+      "text": "-python"
+    },
+    {
+      "type": "delta",
+      "text": "\"],"
+    },
+    {
+      "type": "delta",
+      "text": "\""
+    },
+    {
+      "type": "delta",
+      "text": "needs"
+    },
+    {
+      "type": "delta",
+      "text": "_h"
+    },
+    {
+      "type": "delta",
+      "text": "uman"
+    },
+    {
+      "type": "delta",
+      "text": "\":"
+    },
+    {
+      "type": "delta",
+      "text": "false"
+    },
+    {
+      "type": "delta",
+      "text": ",\""
+    },
+    {
+      "type": "delta",
+      "text": "category"
+    },
+    {
+      "type": "delta",
+      "text": "\":\""
+    },
+    {
+      "type": "delta",
+      "text": "installation"
+    },
+    {
+      "type": "delta",
+      "text": "\"}"
+    },
+    {
+      "type": "final",
+      "reply": {
+        "answer": "KANT NEXT의 DevDesk 프로젝트는 Python 3.12를 기준으로 합니다.",
+        "source_ids": [
+          "policy-python"
+        ],
+        "needs_human": false,
+        "category": "installation"
+      },
+      "route": "primary"
+    }
+  ],
+  "model_attempts": 1
+}

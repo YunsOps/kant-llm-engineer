@@ -1,0 +1,342 @@
+{
+  "stage": "all",
+  "passed": 67,
+  "failed": 0,
+  "results": [
+    {
+      "name": "자료 수집: 두 페이지 저장",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "자료 수집: 한 페이지 종료",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "자료 수집: 빈 마지막 페이지",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "자료 수집: 다음 페이지가 남은 상한",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "자료 수집: 두 번째 페이지 503",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "자료 수집: 수집 429 중단",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "자료 수집: 수집 403 중단",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "자료 수집: 수집 timeout 중단",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "자료 수집: 배열이 아닌 응답",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 제공 자료 분류와 재실행",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 정제와 원천 추적",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 제목 대체",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 분류 순서와 유효한 중복",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 최대 길이 경계",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 객체와 필수 필드 누락",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: URL 앞뒤 공백과 내부 공백",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: boolean ID",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 0 ID",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 문자열 ID",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 변환 후 길이를 넘는 ID",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 숫자 제목",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 대체 제목도 없음",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 빈 본문",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 숫자 본문",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 태그만 있는 본문",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 잘못된 URL",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 호스트 없는 URL",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 잘못된 날짜",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 시간대 없는 게시시각",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: boolean 아닌 draft",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: boolean 아닌 prerelease",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 API: 문서 모델",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 API: 질문 모델",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 API: 답변 모델",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 API: 문서 HTTP와 문서 API 격리",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 API: OpenAPI와 응답 모델",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 API: 시작 자료 검증",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 API: 허용 ID의 등록과 조회",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "모델 연결: 현재 선택 문서만 연결",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "모델 연결: 비동기 1회 연결",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "모델 연결: JSON 검증",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "모델 연결: 응답 타입 검증",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "모델 연결: 선택 밖 출처 검증",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "모델 연결: live 키 없음",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 정상 1회",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 503 뒤 성공",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: timeout 뒤 성공",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 반복 timeout",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 시도 전체 timeout",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 반복 5xx",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 401 재시도 금지",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 공급자 429",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 연결 실패",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: JSON 실패",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 출처 실패",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 스키마 실패",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 503 뒤 429",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: timeout 뒤 401",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 503 뒤 timeout",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: timeout 뒤 503",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 모델 API 응답 형식 검증",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "요청 제한과 기록: 고정 구간 계산",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "요청 제한과 기록: 30회 제한과 복구",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "요청 제한과 기록: 재시도와 사용자 횟수",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "요청 제한과 기록: 동시 세 요청의 대기 겹침",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "요청 제한과 기록: 안전한 미들웨어 로그",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "요청 제한과 기록: 공급자 오류 응답과 로그",
+      "passed": true,
+      "detail": "통과"
+    }
+  ]
+}

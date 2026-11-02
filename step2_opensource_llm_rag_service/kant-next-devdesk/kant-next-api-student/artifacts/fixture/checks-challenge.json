@@ -1,0 +1,22 @@
+{
+  "stage": "challenge",
+  "passed": 3,
+  "failed": 0,
+  "results": [
+    {
+      "name": "선택 심화: 문서 변경 비교",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "선택 심화: 변경 조회 API",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "선택 심화: 빈 입력과 순서 및 여러 변경",
+      "passed": true,
+      "detail": "통과"
+    }
+  ]
+}

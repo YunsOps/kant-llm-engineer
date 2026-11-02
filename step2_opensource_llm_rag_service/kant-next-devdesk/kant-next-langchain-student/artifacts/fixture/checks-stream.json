@@ -1,0 +1,102 @@
+{
+  "stage": "stream",
+  "passed": 19,
+  "failed": 0,
+  "results": [
+    {
+      "name": "스트리밍: 종료 전 delta와 검증된 final",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 청크 전 일시 실패 복구",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 중간 실패 뒤 reset",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 완료 문자열 JSON 실패 뒤 reset",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 완료 문자열 출처 실패 뒤 reset",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 완료 문자열 중복 출처 뒤 reset",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 완료 문자열 스키마 실패 뒤 reset",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 청크 전 실패 2회 상한",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 인증 오류 전달",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 429 오류 전달",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 중간 코드 오류와 reset",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 소비 중단과 iterator 정리",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 문서 없음 스트림",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 실제 Callback과 원문 없는 trace",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: run별 경과 시간과 오류 기록",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: usage 부재와 빈 청크",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 스트림 이력 저장 primary",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 스트림 이력 저장 fallback",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 스트림 이력 저장 cancel",
+      "passed": true,
+      "detail": "통과"
+    }
+  ]
+}

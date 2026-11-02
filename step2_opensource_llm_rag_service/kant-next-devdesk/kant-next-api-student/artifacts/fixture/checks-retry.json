@@ -1,0 +1,92 @@
+{
+  "stage": "retry",
+  "passed": 17,
+  "failed": 0,
+  "results": [
+    {
+      "name": "실패 처리: 정상 1회",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 503 뒤 성공",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: timeout 뒤 성공",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 반복 timeout",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 시도 전체 timeout",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 반복 5xx",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 401 재시도 금지",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 공급자 429",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 연결 실패",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: JSON 실패",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 출처 실패",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 스키마 실패",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 503 뒤 429",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: timeout 뒤 401",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 503 뒤 timeout",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: timeout 뒤 503",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 처리: 모델 API 응답 형식 검증",
+      "passed": true,
+      "detail": "통과"
+    }
+  ]
+}

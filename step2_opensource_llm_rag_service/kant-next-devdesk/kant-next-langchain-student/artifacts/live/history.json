@@ -1,0 +1,42 @@
+{
+  "mode": "live",
+  "turns": [
+    {
+      "reply": {
+        "answer": "KANT NEXT DevDesk 프로젝트는 Python 3.12를 기준으로 합니다. `uv python install 3.12`로 준비하고 `uv sync --python 3.12`로 프로젝트별 환경을 구성하세요.",
+        "source_ids": [
+          "policy-python"
+        ],
+        "needs_human": false,
+        "category": "installation"
+      },
+      "route": "primary"
+    },
+    {
+      "reply": {
+        "answer": "KANT NEXT DevDesk 프로젝트의 기준 Python 버전은 3.12입니다.",
+        "source_ids": [
+          "policy-python"
+        ],
+        "needs_human": false,
+        "category": "installation"
+      },
+      "route": "primary"
+    },
+    {
+      "reply": {
+        "answer": "KANT NEXT의 DevDesk 프로젝트는 Python 3.12를 기준으로 합니다.",
+        "source_ids": [
+          "policy-python"
+        ],
+        "needs_human": false,
+        "category": "installation"
+      },
+      "route": "primary"
+    }
+  ],
+  "history_counts": {
+    "employee-a": 4,
+    "employee-b": 2
+  }
+}

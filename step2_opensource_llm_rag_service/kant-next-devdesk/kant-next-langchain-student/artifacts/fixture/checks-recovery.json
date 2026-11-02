@@ -1,0 +1,72 @@
+{
+  "stage": "recovery",
+  "passed": 13,
+  "failed": 0,
+  "results": [
+    {
+      "name": "실패 복구: 정상 1회",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 일시 장애 후 성공",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 파서 오류 후 성공",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 출처 오류 후 성공",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 두 번 실패 뒤 fallback",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 두 번 파서 오류",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: TypeError 전달",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 설정 오류 전달",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 인증 오류 전달",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 일시 실패 뒤 코드 오류",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 실제 fixture 인증 분류",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 실제 fixture 공급자 429 분류",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 실제 fixture 설정 오류 분류",
+      "passed": true,
+      "detail": "통과"
+    }
+  ]
+}

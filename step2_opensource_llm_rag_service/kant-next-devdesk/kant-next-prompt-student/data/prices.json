@@ -1,0 +1,12 @@
+{
+  "model": "gpt-5.6-luna",
+  "input": 0.2,
+  "cached": 0.02,
+  "cache_write": 0.25,
+  "output": 1.2,
+  "unit": "USD per 1M tokens",
+  "tier": "standard, input <= 272000 tokens",
+  "max_input_tokens": 272000,
+  "source": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
+  "checked_at": "2026-09-18"
+}

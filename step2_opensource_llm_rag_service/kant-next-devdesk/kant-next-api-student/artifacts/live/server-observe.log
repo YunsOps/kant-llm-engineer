@@ -1,0 +1,6 @@
+[live / 요청 제한과 기록] http://127.0.0.1:60165/docs | 종료 Ctrl+C | 다른 터미널에서 check 실행
+{"method": "GET", "path": "/health", "status": 200, "mode": "live", "elapsed_ms": 0.0}
+{"method": "GET", "path": "<unmatched>", "status": 200, "mode": "live", "elapsed_ms": 0.0}
+{"method": "GET", "path": "/health", "status": 200, "mode": "live", "elapsed_ms": 0.0}
+{"method": "POST", "path": "/query", "status": 200, "mode": "live", "elapsed_ms": 1735.0}
+{"method": "POST", "path": "/query", "status": 200, "mode": "live", "elapsed_ms": 2359.0}

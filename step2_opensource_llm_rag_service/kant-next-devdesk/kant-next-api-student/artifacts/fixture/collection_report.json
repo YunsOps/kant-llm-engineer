@@ -1,0 +1,11 @@
+{
+  "mode": "fixture",
+  "source": "https://api.github.com/repos/astral-sh/uv/releases",
+  "collected_at": "2026-09-21T00:00:00Z",
+  "successful_pages": 2,
+  "raw_count": 10,
+  "success": true,
+  "failed_page": null,
+  "limited": false,
+  "error": null
+}

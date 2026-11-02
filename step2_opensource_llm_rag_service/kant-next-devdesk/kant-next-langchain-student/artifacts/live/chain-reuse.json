@@ -1,0 +1,31 @@
+{
+  "mode": "live",
+  "code_digest": "890cc4b00c83eac7effdd7bac75d101c56b79cb8bd896e111bb02fa2a0fa6ba6",
+  "same_chain": true,
+  "answers": [
+    {
+      "question": "이 프로젝트의 Python 버전은 무엇인가요?",
+      "reply": {
+        "answer": "KANT NEXT DevDesk 프로젝트는 Python 3.12를 기준으로 합니다.",
+        "source_ids": [
+          "policy-python"
+        ],
+        "needs_human": false,
+        "category": "installation"
+      },
+      "route": "primary"
+    },
+    {
+      "question": "이 프로젝트는 GPU 없이 CPU 환경으로 실행할 수 있나요?",
+      "reply": {
+        "answer": "네. 문서에 따르면 CPU 환경으로 실행할 수 있습니다.",
+        "source_ids": [
+          "policy-python"
+        ],
+        "needs_human": false,
+        "category": "installation"
+      },
+      "route": "primary"
+    }
+  ]
+}

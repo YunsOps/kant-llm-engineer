@@ -1,0 +1,3 @@
+[통과] 선택 심화: 독자 모드, 공통 근거, 잘못된 모드: fixture 검증 완료
+[통과] 선택 심화: 대상별 답변의 정책과 설명 비교: fixture 검증 완료
+검사 항목 2개 중 2개 통과. 실제 답변은 별도로 확인하세요. 결과: C:\Users\limux\Documents\1. Projects\KANT Private LLM Infra Engineer\kant-llm-engineer-main\step2_opensource_llm_rag_service\kant-next-devdesk\kant-next-prompt-student\artifacts\checks-challenge.json

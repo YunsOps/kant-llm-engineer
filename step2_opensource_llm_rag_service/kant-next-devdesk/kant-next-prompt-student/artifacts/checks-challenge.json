@@ -1,0 +1,17 @@
+{
+  "mode": "fixture",
+  "results": [
+    {
+      "stage": "challenge",
+      "name": "선택 심화: 독자 모드, 공통 근거, 잘못된 모드",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    },
+    {
+      "stage": "challenge",
+      "name": "선택 심화: 대상별 답변의 정책과 설명 비교",
+      "status": "통과",
+      "detail": "fixture 검증 완료"
+    }
+  ]
+}

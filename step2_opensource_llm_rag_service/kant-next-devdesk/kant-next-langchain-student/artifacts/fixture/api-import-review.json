@@ -1,0 +1,36 @@
+{
+  "network_calls": 0,
+  "code_digest": "890cc4b00c83eac7effdd7bac75d101c56b79cb8bd896e111bb02fa2a0fa6ba6",
+  "cases": [
+    {
+      "source_mode": "fixture",
+      "imported_release_count": 3,
+      "total_documents": 9,
+      "allowed_ids": [
+        "release-uv-101",
+        "release-uv-102",
+        "release-uv-109"
+      ],
+      "retrieved_ids": [
+        "release-uv-101",
+        "release-uv-102",
+        "release-uv-109"
+      ]
+    },
+    {
+      "source_mode": "live",
+      "imported_release_count": 10,
+      "total_documents": 16,
+      "allowed_ids": [
+        "release-uv-418555132",
+        "release-uv-417904289",
+        "release-uv-417751044"
+      ],
+      "retrieved_ids": [
+        "release-uv-418555132",
+        "release-uv-417904289",
+        "release-uv-417751044"
+      ]
+    }
+  ]
+}

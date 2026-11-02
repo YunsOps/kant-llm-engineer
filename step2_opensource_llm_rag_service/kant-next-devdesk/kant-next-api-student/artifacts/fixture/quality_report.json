@@ -1,0 +1,89 @@
+{
+  "input_count": 10,
+  "kept_count": 3,
+  "quarantine_count": 5,
+  "excluded_count": 2,
+  "records": [
+    {
+      "page": 1,
+      "row": 1,
+      "id": 101,
+      "published_at": "2026-09-20T09:00:00Z",
+      "status": "kept",
+      "reason": null
+    },
+    {
+      "page": 1,
+      "row": 2,
+      "id": 102,
+      "published_at": "2026-09-20T09:00:00Z",
+      "status": "kept",
+      "reason": null
+    },
+    {
+      "page": 1,
+      "row": 3,
+      "id": 103,
+      "published_at": "2026-09-20T09:00:00Z",
+      "status": "quarantine",
+      "reason": "empty_body"
+    },
+    {
+      "page": 1,
+      "row": 4,
+      "id": 104,
+      "published_at": "2026-09-20T09:00:00Z",
+      "status": "quarantine",
+      "reason": "invalid_name"
+    },
+    {
+      "page": 1,
+      "row": 5,
+      "id": 105,
+      "published_at": "2026-09-20T09:00:00Z",
+      "status": "excluded",
+      "reason": "draft"
+    },
+    {
+      "page": 2,
+      "row": 1,
+      "id": 101,
+      "published_at": "2026-09-20T09:00:00Z",
+      "status": "quarantine",
+      "reason": "duplicate_id"
+    },
+    {
+      "page": 2,
+      "row": 2,
+      "id": 106,
+      "published_at": "2026-09-20T09:00:00Z",
+      "status": "excluded",
+      "reason": "prerelease"
+    },
+    {
+      "page": 2,
+      "row": 3,
+      "id": 109,
+      "published_at": "2026-09-20T09:00:00Z",
+      "status": "quarantine",
+      "reason": "invalid_body"
+    },
+    {
+      "page": 2,
+      "row": 4,
+      "id": 109,
+      "published_at": "2026-09-20T09:00:00Z",
+      "status": "kept",
+      "reason": null
+    },
+    {
+      "page": 2,
+      "row": 5,
+      "id": 107,
+      "published_at": "2026-02-30T00:00:00Z",
+      "status": "quarantine",
+      "reason": "invalid_published_at"
+    }
+  ],
+  "collection_sha256": "66c6ae02f99c5e10dfe5ffcd78b0a7ce47b3fd7d4963c3abe58f3d28631c6190"
+}

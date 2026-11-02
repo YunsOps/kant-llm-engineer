@@ -1,0 +1,19 @@
+{
+  "mode": "fixture",
+  "model": "fixture-not-a-model",
+  "elapsed_ms": 0.85,
+  "selected_ids": [
+    "policy-python"
+  ],
+  "question": "프로젝트에서 사용하는 Python 버전과 확인할 점을 알려주세요.",
+  "response": {
+    "answer": "고정 응답입니다. 실제 모델이 생성한 답변이 아닙니다.",
+    "source_ids": [
+      "policy-python"
+    ],
+    "needs_human": false,
+    "category": "general"
+  },
+  "calls": 1,
+  "meaning_review": "답변 문장과 선택 문서를 대조하세요."
+}

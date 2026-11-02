@@ -1,0 +1,42 @@
+{
+  "stage": "search",
+  "passed": 7,
+  "failed": 0,
+  "results": [
+    {
+      "name": "문서 검색: Document와 원본 보존",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 검색: 허용 후보 선필터",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 검색: 키워드 점수와 동점",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 검색: top_k 상한",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 검색: 0점 제외",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 검색: 근거 context",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 검색: 실제 병렬 준비와 후속 검색",
+      "passed": true,
+      "detail": "통과"
+    }
+  ]
+}

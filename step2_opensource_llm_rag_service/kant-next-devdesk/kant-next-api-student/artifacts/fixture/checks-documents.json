@@ -1,0 +1,117 @@
+{
+  "stage": "documents",
+  "passed": 22,
+  "failed": 0,
+  "results": [
+    {
+      "name": "문서 정제: 제공 자료 분류와 재실행",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 정제와 원천 추적",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 제목 대체",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 분류 순서와 유효한 중복",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 최대 길이 경계",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 객체와 필수 필드 누락",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: URL 앞뒤 공백과 내부 공백",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: boolean ID",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 0 ID",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 문자열 ID",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 변환 후 길이를 넘는 ID",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 숫자 제목",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 대체 제목도 없음",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 빈 본문",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 숫자 본문",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 태그만 있는 본문",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 잘못된 URL",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 호스트 없는 URL",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 잘못된 날짜",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: 시간대 없는 게시시각",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: boolean 아닌 draft",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 정제: boolean 아닌 prerelease",
+      "passed": true,
+      "detail": "통과"
+    }
+  ]
+}

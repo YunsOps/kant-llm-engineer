@@ -1,0 +1,7 @@
+[fixture / 요청 제한과 기록] http://127.0.0.1:50943/docs | 종료 Ctrl+C | 다른 터미널에서 check 실행
+{"method": "GET", "path": "/health", "status": 200, "mode": "fixture", "elapsed_ms": 0.0}
+{"method": "GET", "path": "/health", "status": 200, "mode": "fixture", "elapsed_ms": 0.0}
+{"method": "GET", "path": "/documents/{doc_id}", "status": 404, "mode": "fixture", "elapsed_ms": 0.0}
+{"method": "POST", "path": "/query", "status": 200, "mode": "fixture", "elapsed_ms": 0.0}
+{"method": "POST", "path": "/query", "status": 404, "mode": "fixture", "elapsed_ms": 0.0}
+{"method": "POST", "path": "/query", "status": 422, "mode": "fixture", "elapsed_ms": 15.0}

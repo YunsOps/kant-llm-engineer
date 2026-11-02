@@ -1,0 +1,8 @@
+[dependency-groups]
+dev = [
+    "langchain-core==1.6.3",
+    "langchain-openai==1.6.2",
+    "openai==3.16.2",
+    "pydantic==2.13.5",
+    "python-dotenv==1.2.3",
+]

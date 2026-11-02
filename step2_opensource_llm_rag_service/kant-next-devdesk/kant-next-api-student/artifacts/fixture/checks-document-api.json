@@ -1,0 +1,42 @@
+{
+  "stage": "document-api",
+  "passed": 7,
+  "failed": 0,
+  "results": [
+    {
+      "name": "문서 API: 문서 모델",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 API: 질문 모델",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 API: 답변 모델",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 API: 문서 HTTP와 문서 API 격리",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 API: OpenAPI와 응답 모델",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 API: 시작 자료 검증",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 API: 허용 ID의 등록과 조회",
+      "passed": true,
+      "detail": "통과"
+    }
+  ]
+}

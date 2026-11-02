@@ -1,0 +1,94 @@
+[
+  {
+    "name": "올바른 초안 유지",
+    "case": "keep",
+    "mode": "fixture",
+    "before": {
+      "answer": "DevDesk 프로젝트는 Python 3.12를 기준으로 합니다.",
+      "source_ids": [
+        "policy-python"
+      ],
+      "needs_human": false,
+      "category": "installation"
+    },
+    "review_calls": 1,
+    "rewrite_calls": 0,
+    "reply": {
+      "answer": "DevDesk 프로젝트는 Python 3.12를 기준으로 합니다.",
+      "source_ids": [
+        "policy-python"
+      ],
+      "needs_human": false,
+      "category": "installation"
+    },
+    "route": "primary"
+  },
+  {
+    "name": "잘못된 Python 버전 수정",
+    "case": "revise-once",
+    "mode": "fixture",
+    "before": {
+      "answer": "DevDesk 프로젝트는 Python 3.11을 기준으로 합니다.",
+      "source_ids": [
+        "policy-python"
+      ],
+      "needs_human": false,
+      "category": "installation"
+    },
+    "review_calls": 2,
+    "rewrite_calls": 1,
+    "reply": {
+      "answer": "DevDesk 프로젝트는 Python 3.12를 기준으로 합니다.",
+      "source_ids": [
+        "policy-python"
+      ],
+      "needs_human": false,
+      "category": "installation"
+    },
+    "route": "primary"
+  },
+  {
+    "name": "담당자 확인",
+    "case": "human",
+    "mode": "fixture",
+    "before": {
+      "answer": "DevDesk 프로젝트는 Python 3.12를 기준으로 합니다.",
+      "source_ids": [
+        "policy-python"
+      ],
+      "needs_human": false,
+      "category": "installation"
+    },
+    "review_calls": 1,
+    "rewrite_calls": 0,
+    "reply": {
+      "answer": "현재 답변 생성 기능이 제한되어 정확한 안내를 확정하지 못했습니다. 잠시 후 다시 시도하거나 담당자에게 확인해 주세요.",
+      "source_ids": [],
+      "needs_human": true,
+      "category": "general"
+    },
+    "route": "fallback"
+  },
+  {
+    "name": "수정 후에도 확인이 필요한 초안",
+    "case": "still-needs-review",
+    "mode": "fixture",
+    "before": {
+      "answer": "DevDesk 프로젝트는 Python 3.11을 기준으로 합니다.",
+      "source_ids": [
+        "policy-python"
+      ],
+      "needs_human": false,
+      "category": "installation"
+    },
+    "review_calls": 2,
+    "rewrite_calls": 1,
+    "reply": {
+      "answer": "현재 답변 생성 기능이 제한되어 정확한 안내를 확정하지 못했습니다. 잠시 후 다시 시도하거나 담당자에게 확인해 주세요.",
+      "source_ids": [],
+      "needs_human": true,
+      "category": "general"
+    },
+    "route": "fallback"
+  }
+]

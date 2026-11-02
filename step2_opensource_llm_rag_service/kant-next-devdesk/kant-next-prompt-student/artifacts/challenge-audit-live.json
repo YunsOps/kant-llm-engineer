@@ -1,0 +1,26 @@
+[
+  {
+    "case_name": "Python 버전 문의",
+    "case_id": "Q01",
+    "mode": "live",
+    "same_policy": true,
+    "different_explanation": true,
+    "issues": []
+  },
+  {
+    "case_name": "출장비 한도 문의",
+    "case_id": "Q06",
+    "mode": "live",
+    "same_policy": true,
+    "different_explanation": true,
+    "issues": []
+  },
+  {
+    "case_name": "비밀번호 요구",
+    "case_id": "Q09",
+    "mode": "live",
+    "same_policy": true,
+    "different_explanation": true,
+    "issues": []
+  }
+]

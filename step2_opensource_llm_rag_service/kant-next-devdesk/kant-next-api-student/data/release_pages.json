@@ -1,0 +1,112 @@
+[
+  {
+    "page": 1,
+    "items": [
+      {
+        "id": 101,
+        "name": "uv test release 101",
+        "tag_name": "fixture-101",
+        "body": "<p>설치 &amp; 검증</p><p>테스트용 변경 안내입니다.</p>",
+        "html_url": "https://github.com/astral-sh/uv/releases/tag/fixture-101",
+        "published_at": "2026-09-20T09:00:00Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "id": 102,
+        "name": "  ",
+        "tag_name": "fixture-102",
+        "body": "<p>설치 &amp; 검증</p><p>테스트용 변경 안내입니다.</p>",
+        "html_url": "https://github.com/astral-sh/uv/releases/tag/fixture-102",
+        "published_at": "2026-09-20T09:00:00Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "id": 103,
+        "name": "uv test release 103",
+        "tag_name": "fixture-103",
+        "body": " \n ",
+        "html_url": "https://github.com/astral-sh/uv/releases/tag/fixture-103",
+        "published_at": "2026-09-20T09:00:00Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "id": 104,
+        "name": 2026,
+        "tag_name": "fixture-104",
+        "body": "<p>설치 &amp; 검증</p><p>테스트용 변경 안내입니다.</p>",
+        "html_url": "https://github.com/astral-sh/uv/releases/tag/fixture-104",
+        "published_at": "2026-09-20T09:00:00Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "id": 105,
+        "name": "uv test release 105",
+        "tag_name": "fixture-105",
+        "body": "<p>설치 &amp; 검증</p><p>테스트용 변경 안내입니다.</p>",
+        "html_url": "https://github.com/astral-sh/uv/releases/tag/fixture-105",
+        "published_at": "2026-09-20T09:00:00Z",
+        "draft": true,
+        "prerelease": false
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "items": [
+      {
+        "id": 101,
+        "name": "uv test release 101",
+        "tag_name": "fixture-101",
+        "body": "<p>설치 &amp; 검증</p><p>테스트용 변경 안내입니다.</p>",
+        "html_url": "https://github.com/astral-sh/uv/releases/tag/fixture-101",
+        "published_at": "2026-09-20T09:00:00Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "id": 106,
+        "name": "uv test release 106",
+        "tag_name": "fixture-106",
+        "body": "<p>설치 &amp; 검증</p><p>테스트용 변경 안내입니다.</p>",
+        "html_url": "https://github.com/astral-sh/uv/releases/tag/fixture-106",
+        "published_at": "2026-09-20T09:00:00Z",
+        "draft": false,
+        "prerelease": true
+      },
+      {
+        "id": 109,
+        "name": "uv test release 109",
+        "tag_name": "fixture-109",
+        "body": null,
+        "html_url": "https://github.com/astral-sh/uv/releases/tag/fixture-109",
+        "published_at": "2026-09-20T09:00:00Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "id": 109,
+        "name": "uv test release 109",
+        "tag_name": "fixture-109",
+        "body": "나중에 온 유효한 자료를 채택합니다.",
+        "html_url": "https://github.com/astral-sh/uv/releases/tag/fixture-109",
+        "published_at": "2026-09-20T09:00:00Z",
+        "draft": false,
+        "prerelease": false
+      },
+      {
+        "id": 107,
+        "name": "uv test release 107",
+        "tag_name": "fixture-107",
+        "body": "<p>설치 &amp; 검증</p><p>테스트용 변경 안내입니다.</p>",
+        "html_url": "https://github.com/astral-sh/uv/releases/tag/fixture-107",
+        "published_at": "2026-02-30T00:00:00Z",
+        "draft": false,
+        "prerelease": false
+      }
+    ]
+  }
+]

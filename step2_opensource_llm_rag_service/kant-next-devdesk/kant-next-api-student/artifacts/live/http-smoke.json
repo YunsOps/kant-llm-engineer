@@ -1,0 +1,51 @@
+{
+  "mode": "live",
+  "code_digest": "2246668bb2a3472f86d56431943c9ff318dd8840d3e7c750ebe5b92976451bd2",
+  "verified_at": "2026-10-22T01:18:22.691505+00:00",
+  "requests": [
+    {
+      "request": {
+        "question": "자료에서 출장비 한도를 확인할 수 있나요?",
+        "document_ids": [
+          "policy-support"
+        ]
+      },
+      "status": 200,
+      "response": {
+        "answer": "제공된 자료에는 출장비 한도가 없습니다. 출장비는 DevDesk 지원 범위 밖이므로 담당 부서에 확인해 주세요.",
+        "source_ids": [
+          "policy-support"
+        ],
+        "needs_human": true,
+        "category": "general"
+      },
+      "elapsed_ms": 1735.0
+    },
+    {
+      "request": {
+        "question": "선택한 공개 릴리스의 변경점 하나와, 이를 근거로 사내 uv 버전을 바로 바꿔도 되는지 알려주세요.",
+        "document_ids": [
+          "policy-uv",
+          "release-uv-418555132"
+        ]
+      },
+      "status": 200,
+      "response": {
+        "answer": "공개 릴리스 0.13.4의 변경점 중 하나는 Mozilla 루트 인증서 번들을 업데이트한 것입니다. 보안 권고에 따라 업그레이드가 권장되지만, 공개 릴리스만으로 사내 승인 버전을 바로 변경할 수는 없습니다. 사내 정책상 별도 개발환경 검증 후 적용해야 합니다.",
+        "source_ids": [
+          "policy-uv",
+          "release-uv-418555132"
+        ],
+        "needs_human": false,
+        "category": "installation"
+      },
+      "elapsed_ms": 2359.0
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "mode": "live",
+    "document_count": 16
+  },
+  "passed": true
+}

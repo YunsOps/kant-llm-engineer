@@ -1,0 +1,42 @@
+{
+  "mode": "live",
+  "code_digest": "890cc4b00c83eac7effdd7bac75d101c56b79cb8bd896e111bb02fa2a0fa6ba6",
+  "verified_at": "2026-10-22T01:36:20.893184+00:00",
+  "model": "gpt-5.6-luna",
+  "history_counts": {
+    "employee-a": 4,
+    "employee-b": 2
+  },
+  "normal_model_calls": 7,
+  "trace": {
+    "root_run_id": "01a16140-720c-7d00-8d7a-8f035e5f5df4",
+    "summary": {
+      "event": "request_summary",
+      "mode": "live",
+      "run_id": "01a16140-720c-7d00-8d7a-8f035e5f5df4",
+      "route": "primary",
+      "model_attempts": 1,
+      "error_type": null
+    },
+    "errors": [],
+    "model_ends": [
+      {
+        "event": "model_end",
+        "stage": "model",
+        "run_id": "01a16140-721c-74d0-bcf9-cae64f358be9",
+        "parent_run_id": "01a16140-7219-7190-9b39-9f660d1c777f",
+        "mode": "live",
+        "elapsed_ms": 1306.3105000182986,
+        "chunk_count": 38,
+        "usage": {
+          "input_tokens": 750,
+          "output_tokens": 42,
+          "total_tokens": 792
+        },
+        "error_type": null
+      }
+    ],
+    "text_chunks": 38
+  },
+  "passed": true
+}

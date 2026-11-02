@@ -1,0 +1,52 @@
+{
+  "stage": "collect",
+  "passed": 9,
+  "failed": 0,
+  "results": [
+    {
+      "name": "자료 수집: 두 페이지 저장",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "자료 수집: 한 페이지 종료",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "자료 수집: 빈 마지막 페이지",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "자료 수집: 다음 페이지가 남은 상한",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "자료 수집: 두 번째 페이지 503",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "자료 수집: 수집 429 중단",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "자료 수집: 수집 403 중단",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "자료 수집: 수집 timeout 중단",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "자료 수집: 배열이 아닌 응답",
+      "passed": true,
+      "detail": "통과"
+    }
+  ]
+}

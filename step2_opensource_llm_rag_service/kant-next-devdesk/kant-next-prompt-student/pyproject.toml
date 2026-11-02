@@ -1,0 +1,6 @@
+[dependency-groups]
+dev = [
+    "openai==2.54.0",
+    "jsonschema==4.26.0",
+    "python-dotenv==1.2.3",
+]

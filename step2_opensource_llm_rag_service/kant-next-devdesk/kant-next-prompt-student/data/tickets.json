@@ -1,0 +1,16 @@
+{
+  "IT-1042": {
+    "ticket_id": "IT-1042",
+    "status": "investigating",
+    "summary": "사설 패키지 저장소 401 오류 조사",
+    "owner": "개발환경 지원팀",
+    "updated_at": "2026-09-18T00:00:00Z"
+  },
+  "IT-1043": {
+    "ticket_id": "IT-1043",
+    "status": "resolved",
+    "summary": "Python 3.12 가상환경 경로 수정 안내 완료",
+    "owner": "개발환경 지원팀",
+    "updated_at": "2026-09-18T00:00:00Z"
+  }
+}

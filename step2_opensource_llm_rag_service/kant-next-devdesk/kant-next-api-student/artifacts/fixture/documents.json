@@ -1,0 +1,26 @@
+[
+  {
+    "doc_id": "release-uv-101",
+    "title": "uv test release 101",
+    "body": "설치 & 검증 테스트용 변경 안내입니다.",
+    "source_url": "https://github.com/astral-sh/uv/releases/tag/fixture-101",
+    "collected_at": "2026-09-21T00:00:00Z",
+    "category": "release"
+  },
+  {
+    "doc_id": "release-uv-102",
+    "title": "fixture-102",
+    "body": "설치 & 검증 테스트용 변경 안내입니다.",
+    "source_url": "https://github.com/astral-sh/uv/releases/tag/fixture-102",
+    "collected_at": "2026-09-21T00:00:00Z",
+    "category": "release"
+  },
+  {
+    "doc_id": "release-uv-109",
+    "title": "uv test release 109",
+    "body": "나중에 온 유효한 자료를 채택합니다.",
+    "source_url": "https://github.com/astral-sh/uv/releases/tag/fixture-109",
+    "collected_at": "2026-09-21T00:00:00Z",
+    "category": "release"
+  }
+]

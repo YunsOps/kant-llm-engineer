@@ -1,0 +1,24 @@
+[
+  {
+    "doc_id": "policy-incident",
+    "status": "added",
+    "changed_fields": []
+  },
+  {
+    "doc_id": "policy-python",
+    "status": "unchanged",
+    "changed_fields": []
+  },
+  {
+    "doc_id": "policy-secret",
+    "status": "missing",
+    "changed_fields": []
+  },
+  {
+    "doc_id": "policy-uv",
+    "status": "changed",
+    "changed_fields": [
+      "body"
+    ]
+  }
+]

@@ -1,0 +1,287 @@
+{
+  "stage": "all",
+  "passed": 56,
+  "failed": 0,
+  "results": [
+    {
+      "name": "문서 검색: Document와 원본 보존",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 검색: 허용 후보 선필터",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 검색: 키워드 점수와 동점",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 검색: top_k 상한",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 검색: 0점 제외",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 검색: 근거 context",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "문서 검색: 실제 병렬 준비와 후속 검색",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: prompt와 parser 연결",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 실제 LCEL 순차 실행과 재사용",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 검색된 출처 검증",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 문서 없음 분기",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 잘못된 JSON",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 없는 필드",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 추가 필드",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: boolean 문자열",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 빈 답변",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 답변 release 범주",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 중복 출처",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 미검색 출처",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "기본 체인: 출처 없는 해결 응답",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "대화 이력: 세션별 history 객체와 저장 순서",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "대화 이력: 문서 없음 이력 제외",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "대화 이력: fallback 이력 제외",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "대화 이력: A 두 턴과 B 한 턴의 분리",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 정상 1회",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 일시 장애 후 성공",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 파서 오류 후 성공",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 출처 오류 후 성공",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 두 번 실패 뒤 fallback",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 두 번 파서 오류",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: TypeError 전달",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 설정 오류 전달",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 인증 오류 전달",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 일시 실패 뒤 코드 오류",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 실제 fixture 인증 분류",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 실제 fixture 공급자 429 분류",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "실패 복구: 실제 fixture 설정 오류 분류",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 종료 전 delta와 검증된 final",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 청크 전 일시 실패 복구",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 중간 실패 뒤 reset",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 완료 문자열 JSON 실패 뒤 reset",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 완료 문자열 출처 실패 뒤 reset",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 완료 문자열 중복 출처 뒤 reset",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 완료 문자열 스키마 실패 뒤 reset",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 청크 전 실패 2회 상한",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 인증 오류 전달",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 429 오류 전달",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 중간 코드 오류와 reset",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 소비 중단과 iterator 정리",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 문서 없음 스트림",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 실제 Callback과 원문 없는 trace",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: run별 경과 시간과 오류 기록",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: usage 부재와 빈 청크",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 스트림 이력 저장 primary",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 스트림 이력 저장 fallback",
+      "passed": true,
+      "detail": "통과"
+    },
+    {
+      "name": "스트리밍: 스트림 이력 저장 cancel",
+      "passed": true,
+      "detail": "통과"
+    }
+  ]
+}
